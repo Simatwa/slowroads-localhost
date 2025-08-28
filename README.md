@@ -1,9 +1,12 @@
 # slowroads-localhost
 Locally host slowroads.io
 
-# installation & Run
+# Setup & Run
 
 ```sh
+git clone https://github.com/Simatwa/slowroads-localhost.git
+cd slowroads-localhost
+
 uv venv
 .venv\Scripts\activate # Windows
 # source .venv/bin/activate - *nix
