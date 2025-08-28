@@ -80,8 +80,8 @@ async def download_file(path: str, redirect: bool = True):
         if redirect:
             return RedirectResponse(
                 redirect_to,
-                status_code=status.HTTP_307_TEMPORARY_REDIRECT,
-                # status.HTTP_308_PERMANENT_REDIRECT
+                # status_code=status.HTTP_307_TEMPORARY_REDIRECT,
+                status_code=status.HTTP_308_PERMANENT_REDIRECT,
             )
         else:
             return FileResponse(saved_to)
