@@ -11,6 +11,6 @@ uv venv
 #.venv\Scripts\activate # Windows
 source .venv/bin/activate # - *nix
 uv pip install .
-python -m fastapi run
+uv run python -m fastapi run
 
 ```
